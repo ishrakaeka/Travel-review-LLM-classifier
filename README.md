@@ -1,5 +1,6 @@
 Project Overview:
 This project implements a text classification system using Large Language Models (LLMs) to categorise traveller questions into coarse-grain intent classes. The goal was to evaluate LLM performance under different prompting strategies (zero-shot, few-shot) and compare them with a supervised fine-tuned model using Unsloth.
+
 The system analyses 5,000 real-world travel-related questions and assigns one of seven classes:
 TTD – Things to do
 TGU – Travel guide
@@ -8,6 +9,7 @@ TRS – Transport
 WTH – Weather
 FOD – Food
 ENT – Entertainment.
+
 This project demonstrates end-to-end ML capability including data preparation, prompt engineering, LLM-based classification, few-shot learning, supervised fine-tuning, and model evaluation.
 
 Dataset:
